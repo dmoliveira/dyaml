@@ -1,0 +1,7 @@
+.idea
+scripts
+target
+*.scalac
+*.pwc
+*.pwo
+*.pwp
