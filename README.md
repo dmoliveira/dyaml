@@ -1,4 +1,6 @@
 # DYAML: Dynamic YAML for Scala
+
+[![Join the chat at https://gitter.im/dmoliveira/dyaml](https://badges.gitter.im/dmoliveira/dyaml.svg)](https://gitter.im/dmoliveira/dyaml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <img src="https://github.com/dmoliveira/dyaml/blob/master/.img/dyml.png" width="250px"/>
 
 **Author:** [Oliveira, D.M](https://br.linkedin.com/in/dmztheone)
