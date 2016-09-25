@@ -1,15 +1,22 @@
 # DYAML: Dynamic YAML for Scala
-<img src="https://github.com/dmoliveira/dyaml/blob/master/.img/dyml.png" width="250px"/>
+![DYAML Logo](https://github.com/dmoliveira/dyaml/blob/master/.img/dyml.png)
 
-**Author:** [Oliveira, D.M](https://br.linkedin.com/in/dmztheone)
+**Author:** [Oliveira, D.M](https://br.linkedin.com/in/dmztheone);
 
 ## Introduction
 DYAML is a dynamic YAML reader for Scala. Load on-the-fly YAML files to Map objects without need to create case classes.
 
 ## Install
-For now, you can add this follow line in your ```build.sbt``` project file:
+For now, you can add DYAML to our project adding the following configuration to your ```project/Build.scala``` file:
 ```
-.dependsOn(RootProject(uri("git://github.com/dmoliveira/dyaml.git")))
+import sbt._
+
+object MyBuild extends Build {
+  lazy val root = Project("root", file("."))
+                    .dependsOn(dyaml)
+
+  lazy val dyaml = RootProject(uri("git://github.com/dmoliveira/dyaml.git"))
+}
 ```
 
 ## Example
@@ -29,12 +36,12 @@ We could read it using these steps:
   ```
   import scala.dynamic.DYaml
   ```
-  
+
   2. Read the data
   ```
   var example = DYaml.loadYAML("example.yml")
   ```
-  
+
   3. Access object values  loaded from YAML
   ```
   println(example.name)

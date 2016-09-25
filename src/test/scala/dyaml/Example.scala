@@ -1,7 +1,7 @@
-package scala.dyaml
+package com.github.dyaml
 
 object Example extends App {
-  import scala.dyaml.DYaml._
+  import DYaml._
 
   val countries = syaml"""
     |- name: USA

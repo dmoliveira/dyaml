@@ -1,4 +1,4 @@
-package scala.dyaml
+package com.github.dyaml
 
 trait SDynamic extends Dynamic {
   def value: Any

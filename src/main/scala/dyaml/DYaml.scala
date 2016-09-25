@@ -1,4 +1,4 @@
-package scala.dyaml
+package com.github.dyaml
 
 import org.yaml.snakeyaml.Yaml
 

@@ -1,7 +1,7 @@
-package syaml
+package com.github.syaml
 
 import org.scalatest.FunSuite
-import scala.dyaml.DYamlParser
+import com.github.dyaml.DYamlParser
 
 // Copied from:
 //   https://github.com/daltontf/scala-yaml/blob/master/src/test/scala/tfd/scala/yaml/YAMLParserTest.scala

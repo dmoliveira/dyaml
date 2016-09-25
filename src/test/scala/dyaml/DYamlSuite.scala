@@ -1,9 +1,9 @@
-package scala.dyaml
+package com.github.dyaml
 
 import org.scalatest.FunSuite
 
 class DYamlSuite extends FunSuite {
-  import scala.dyaml.DYaml._
+  import DYaml._
 
   test("SnakeYaml-built Java map is accessible through dynamic properties") {
     val person = syaml"""
@@ -39,7 +39,7 @@ class DYamlSuite extends FunSuite {
   }
 
   test("DYaml-built Scala map is accessible through dynamic properties") {
-    import scala.dyaml.DYaml._
+    import DYaml._
     val person = dyaml"""
         |name: Alex
         |age: 14
