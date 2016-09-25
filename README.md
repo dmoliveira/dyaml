@@ -1,7 +1,7 @@
 # DYAML: Dynamic YAML for Scala
-![DYAML Logo](https://github.com/dmoliveira/dyaml/.img/dyaml.png)
+<img src="https://github.com/dmoliveira/dyaml/blob/master/.img/dyml.png" width="250px"/>
 
-**Author:** [Oliveira, D.M](https://br.linkedin.com/in/dmztheone);
+**Author:** [Oliveira, D.M](https://br.linkedin.com/in/dmztheone)
 
 ## Introduction
 DYAML is a dynamic YAML reader for Scala. Load on-the-fly YAML files to Map objects without need to create case classes.
@@ -24,22 +24,22 @@ settings:
     ...
 ```
 
-We could read it using these steps:
-1. Import the package
-```
-import scala.dynamic.DYaml
-```
-
-2. Read the data
-```
-var example = DYaml.loadYAML("example.yml")
-```
-
-3. Access object values  loaded from YAML
-```
-println(example.name)
-println(example.enabled)
-```
+We could read it using these steps:  
+  1. Import the package
+  ```
+  import scala.dynamic.DYaml
+  ```
+  
+  2. Read the data
+  ```
+  var example = DYaml.loadYAML("example.yml")
+  ```
+  
+  3. Access object values  loaded from YAML
+  ```
+  println(example.name)
+  println(example.enabled)
+  ```
 
 ## Resources
 This library is based on ```Fun with Scala Dynamic, macros and Yaml``` made by [xrrocha](https://github.com/xrrocha/sdynamic). It's only was adjusted for general purpose.  
