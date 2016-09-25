@@ -1,5 +1,9 @@
 # DYAML: Dynamic YAML for Scala
-![DYAML Logo](https://github.com/dmoliveira/dyaml/blob/master/.img/dyml.png)
+<img src="https://github.com/dmoliveira/dyaml/blob/master/.img/dyml.png" width="250px"/><br/>
+[![GitHub version](https://badge.fury.io/gh/dmoliveira%2Fdyaml.svg)](https://badge.fury.io/gh/dmoliveira%2Fdyaml)
+[![Build Status](https://travis-ci.org/dmoliveira/dyaml.svg?branch=master)](https://travis-ci.org/dmoliveira/dyaml)
+[![Join the chat at https://gitter.im/dmoliveira/dyaml](https://badges.gitter.im/dmoliveira/dyaml.svg)](https://gitter.im/dmoliveira/dyaml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 **Author:** [Oliveira, D.M](https://br.linkedin.com/in/dmztheone);
 
